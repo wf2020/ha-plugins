@@ -7,5 +7,3 @@ services:
                 BUILD_FROM: debian:bookworm
         network_mode: host
         env_file: ./.env
-        labels:
-            net.unraid.docker.icon: 'https://raw.githubusercontent.com/arnonym/ha-plugins/refs/heads/main/icon.png'
